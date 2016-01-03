@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<link href="../css/Archive.css" rel="stylesheet">
+		<link href="../css/Shared-Styles.css" rel="stylesheet">
+		<script type="text/javascript" src="../js/Archive.js"></script>
+	</head>
+	<body bgcolor = "#00bbff">
+		<div class="jsa-header-wrapper">
+			<div class="jsa-header">
+				UCSD JSA Archive
+			</div>
+		</div>
+		<div class="links-wrapper">
+			<div class="links-container">
+				<div class="links">
+					<form action="../jsp/Home.jsp">
+					    <input class="link-button" type="submit" value="Home">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="body-wrapper">
+			<div class = "search-wrapper">
+				<div class="search-lable">
+					<div class="lable">
+						Event Name 
+					</div>
+					<div class="lable">
+						Year
+					</div>
+					<div class="lable">
+						Season
+					</div>
+				</div>
+				<div class = "search-input-button">
+					<div class="search-input">
+						<input id="name" class="input" type="text" id="search-input" placeholder="Event Name"/>
+					</div>
+					<div class="search-input">
+						<input id="year" class="input" type="text" id="search-input" placeholder="Year"/>
+					</div>
+					<div class="search-input">
+						<input id="season" class="input" type="text" id="search-input" placeholder="Season"/>
+					</div>
+					<div class="search-button">
+						<input onclick="search()" class="button" type="submit" id="submit" value="Search" onclick="search()"/>
+					</div>
+				</div>
+			</div>			
+			<div class="results-wrapper" method="POST">
+				<form action="../jsp/ViewFile.jsp">
+					<div class="results" id="results">
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

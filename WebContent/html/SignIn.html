@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../images/Shana.ico">
+
+    <title>Signin</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="../css/bootstrap.min.css" rel="stylesheet">  -->
+    <link href="../css/SignIn.css" rel="stylesheet"> 
+
+    <!-- Custom styles for this template -->
+    <!--  <link href="signin.css" rel="stylesheet">  -->
+  </head>
+
+  <body bgcolor = "#eeeeee">
+  	<div class = "signin-header-wrapper">
+		<div class = "signin-header-container">
+	    	<p class="header" >UCSD JSA</p>
+	    </div>
+	    <div class="signin-input-container">
+	      <form action="../jsp/SignIn.jsp" class="form-signin" method="POST">
+	        <h2 class="form-signin-heading">Please sign in</h2>
+	        <!-- <label for="inputEmail" class="sr-only">Email address</label> -->
+	        <input name="email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+	        <!-- <label for="inputPassword" class="sr-only">Password</label>  -->
+	        <input name="password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+	        <div class="checkbox">
+	          <label>
+	            <input class="rememberme" type="checkbox" value="remember-me"> Remember me
+	          </label>
+	        </div>
+	        <button class="btn btn-lg btn-primary btn-block" type="submit" name="button" value="signin">Sign in</button>
+	        <button class="btn btn-lg btn-primary btn-block" type="submit" name="button" value="register">Register</button>
+	      </form>
+	    </div> <!-- /container -->
+	</div> <!-- /signin-header-wrapper -->
+	
+	<div class="signin-body-wrapper">
+		<div class="description-box">
+			<p class="description-text">
+				UCSD JSA documents page. <br />
+				Fall 2015 Events: To be announced. <br />
+				Bonfire: Week 1 Friday, At La Jolla Shores. <br />
+				Karaoke Night: Some date, Some location. <br />
+				Lake Poway: Some date, Some location. <br />
+				Origami Night: Some date, Some location. <br />
+				GBM 1: Some date, Some location. <br />
+				GBM 2: Some date, Some location. <br /> 
+			</p>
+		</div>
+		<div class="signin-calendar">
+			<iframe src="https://www.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cophcjgk6o5ngrc4ujlj43677c%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="400" height="300" frameborder="0" scrolling="no"></iframe>
+		</div>
+		<div class="signin-image">
+			<img src="../images/shana.jpg" alt="image of the week">
+		</div>
+	</div>
+	
+	<div class="signin-footer-wrapper">
+		<div class="music-control">
+			<audio controls class="music-lable">
+				<source src="../music/ToZanarkand.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+				</source>
+			</audio>
+		</div>
+	</div>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

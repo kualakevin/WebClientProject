@@ -1,0 +1,93 @@
+
+
+.link-wrapper{
+	width:100%;
+	height: 8%;
+	margin: 5px 5px 11px 5px;
+}
+
+.link-container{
+	height: 98%;
+	width: 10%;
+	border: 3px solid #000000;
+	border-radius: 5px;
+	float: left;
+	margin-right: 5px;
+}
+
+.shopping-cart-button{
+	height: 100%;
+	width:100%;
+	background-color: #aa00ee;
+	border:none;
+}
+
+.shopping-wrapper{
+	margin: 5px;
+	height: 60%;
+	width: 100%;
+}
+
+.shopping-container{
+	height: 98%;
+	width: 98%;
+	border: 3px solid #000000;
+	border-radius: 5px;
+	background-color: #00bbff;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.item-wrapper{
+	height: 80%;
+	width: 15%;
+	border: 3px solid #000000;
+	border-radius: 5px;
+	background-color: #00ffee;
+	margin: 2%;
+	float: left;
+}
+
+.item{
+	height: 70%;
+	width: 100%;
+}
+
+.image{
+	height: 100%;
+	width: 100%;
+}
+
+.price-label{
+	height:10%;
+	width:100%;
+	border:3px;
+	background-color: #00ff88;
+	border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+}
+
+.price{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 15;
+	text-align: center;
+}
+
+.add-to-cart{
+	width:100%;
+	height:18%;
+}
+
+.add-to-cart-button{
+	width: 80%;
+	height: 70%; 
+    position:relative;
+    margin: 3.5% -40%;
+    top:50%; 
+    left:50%;
+    border: 3px solid #000000;
+	border-radius: 5px;
+	background-color: #00aaff;
+}

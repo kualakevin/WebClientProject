@@ -1,0 +1,21 @@
+.file-wrapper{
+	height: 90%;
+	width: 98%;
+	margin: 5px;
+	background-color: #00ffee;
+	border: 3px solid #000000;
+	border-radius: 5px;
+}
+
+.file-container{
+	width: 60%;
+	height:95%;
+	margin: 10px auto;
+}
+
+.file{
+	width: 100%;
+	height: 100%;
+	border: 3px solid #000000;
+	border-radius: 5px;
+}

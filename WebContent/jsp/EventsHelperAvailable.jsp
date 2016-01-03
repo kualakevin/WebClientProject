@@ -1,0 +1,1 @@
+<%=Helpers.EventsHelper.available(request.getParameter("search-input").toString())%>
